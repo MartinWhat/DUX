@@ -1,0 +1,330 @@
+/*
+	Theme Name: DUX
+	Description: better theme by themebetter
+	Theme URI: https://themebetter.com/theme/dux
+	Author: themebetter.com
+	Author URI: https://themebetter.com/
+	Version: 5.2
+*/
+/* 网站添加公众号涨粉功能样式代码 */
+.post_hide_box, .secret-password{
+	background: none repeat scroll 0 0 #fcffff;
+	border: 1px dashed #24b4f0;
+	color: #123456;
+	padding: 10px;
+	border-radius: 9px;
+	margin: 18px 0px;
+	overflow:hidden;
+	clear:both;
+	}
+.post_hide_box .post-secret{
+	font-size: 18px;
+	line-height:20px; 
+	color:#f0503c; 
+	margin:5px;
+	}
+.post_hide_box form{ margin:15px 5px;}
+.post_hide_box form span{ font-size:18px; font-weight:bold;}
+.post_hide_box .erweima{ margin: 15px;}
+.post_hide_box input[type=password]{
+	color: #00a0f0;
+	padding: 5px;
+	background-color: #fff;
+	border: 1px solid #24b4f0;
+	border-radius: 5px;
+	font-size: 12px;
+	margin: 0px 5px;
+	-moz-transition: border .25s linear,color .25s linear,background-color .25s linear; 
+	-webkit-transition: border .25s linear,color .25s linear,background-color .25s linear; -o-transition: border .25s linear,color .25s linear,background-color .25s linear; 
+	transition: border .25s linear,color .25s linear,background-color .25s linear;}
+.post_hide_box input[type=submit] { 
+    background: #24b4f0; 
+	border: none; 
+	padding: 5px;
+	width: 88px;  
+	color: #fff; 
+	border-radius: 5px; 
+	font-size: 16px;
+	font-weight:bold;
+	}
+.details{
+	color:#123456;
+    font-size: 16px;
+	line-height: 30px;
+	margin: 5px;
+	padding: 3px;
+	}
+.post_hide_box .details span{color:#e74c3c;}
+
+
+/*网站新增彩色警示文本框*/ 
+#tbc_cyan {
+	color: #24b4f0;  
+	background: #c0e8ff url('../diy/img/tbc_cyan.png') -1px -1px no-repeat;  
+	border: 1px solid #24b4f0;   
+	overflow: hidden;   
+	margin: 10px 0;   
+	padding: 15px 15px;   
+} 
+#tbc_green {
+	color: #7da33c;   
+	background: #ecf2d6 url('../diy/img/tbc_green.png') -1px -1px no-repeat;   
+	border: 1px solid #aac66d;   
+	overflow: hidden;   
+	margin: 10px 0;   
+	padding: 15px;   
+} 
+#tbc_yellow {
+	color: #ad9948;  
+	background: #fff4b9 url('../diy/img/tbc_yellow.png') -1px -1px no-repeat;  
+	border: 1px solid #eac946;  
+	overflow: hidden;  
+	margin: 10px 0;  
+	padding: 15px;  
+}  
+#tbc_pink {
+	color: #c66;  
+	background: #ffecea url('../diy/img/tbc_pink.png') -1px -1px no-repeat;  
+	border: 1px solid #ebb1b1;  
+	overflow: hidden;  
+	margin: 10px 0;  
+	padding: 15px;  
+}   
+#tbc_gray {
+	color: #f0f0f0;
+	background: #eaeaea url('../diy/img/tbc_gray.png') -1px -1px no-repeat;
+	border: 1px solid #c8c8c8;
+	overflow: hidden;
+	margin: 10px 0;
+	padding: 15px;  
+}
+/**logo扫光效果CSS**/
+.logo{
+  overflow: hidden;
+  float:left;
+	margin:0;
+}
+.logo:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: blink 1s ease-in 1s infinite;
+    animation: blink 1s ease-in 1s infinite;
+}
+ 
+@-webkit-keyframes blink {
+    from {left: 10px;top: 0;}
+    to {left: 320px;top: 0;}
+}
+@-o-keyframes blink {
+    from {left: 10px;top: 0;}
+    to {left: 320px;top: 0;}
+}
+@-moz-keyframes blink {
+    from {left: 10px;top: 0;}
+    to {left: 320px;top: 0;}
+}
+@keyframes blink {
+    from {left: -100px;top: 0;}
+    to {left: 320px;top: 0;}
+}
+/****** image hover ******/
+
+.image-hover * {-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+.image-hover {position:relative;display:inline-block;overflow:hidden;background:#fff;
+box-shadow:0px 2px 3px rgba(0, 0, 0, 0.3);-moz-box-shadow:0px 2px 3px rgba(0, 0, 0, 0.3);-webkit-box-shadow:0px 2px 3px rgba(0, 0, 0, 0.3)}
+.image-hover a {text-decoration:none}
+
+/**.image-hover img {margin:-100px 0px 0px -100px}**/
+/*** imgeffect - shadow 1 ***/
+.img-shadow-1
+{
+/*-webkit-box-shadow: 0 28px 16px -26px black;
+-moz-box-shadow: 0 28px 16px -26px black;
+box-shadow: 0 28px 16px -26px black;*/
+}
+
+.img-shadow-1:hover
+{
+transform:scale(1.1);
+-webkit-transform:scale(1.1);
+-moz-transform:scale(1.1);
+-ms-transform:scale(1.1);
+-o-transform:scale(1.1);
+
+-webkit-box-shadow: 0 58px 36px -56px black;
+-moz-box-shadow: 0 58px 36px -56px black;
+box-shadow: 0 58px 36px -56px black;
+}
+
+.img-shadow-1
+{
+transition:all .6s ease-in-out;
+-webkit-transition:all .6s ease-in-out;
+-moz-transition:all .6s ease-in-out;
+-ms-transition:all .6s ease-in-out;
+-o-transition:all .6s ease-in-out;
+}
+
+.img-shadow-1:hover
+{
+transition:all .6s ease-in-out;
+-webkit-transition:all .6s ease-in-out;
+-moz-transition:all .6s ease-in-out;
+-ms-transition:all .6s ease-in-out;
+-o-transition:all .6s ease-in-out;
+}
+
+/** 修正摘要列表定位方式 */
+.smilebar{
+	width: 100%;
+    height: 30px;
+    border-top: 1px solid #ddd;
+    background: #fff;
+    border-radius: 0 0 4px 4px;
+    color: #444;
+}
+
+.excerpt {
+    position: relative;
+}
+/** NEW 图标文字版样式 **/
+.excerpt .new-icon{
+    position: absolute;
+    right: -45px;
+    top: -20px;
+    display: block;
+    width: 120px;
+    height: 24px;
+    line-height: 24px;
+    background: #4caf50;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    transform: rotate(36deg);
+    transform-origin: 0% 0%;
+}
+
+/** 置顶图标文字版样式 **/
+.top-icon {
+    position: absolute;
+    z-index:998;
+    padding: 0;
+    right: -45px;
+    top: -20px;
+    display: block;
+    width: 120px;
+    height: 24px;
+    line-height: 24px;
+    background: #ff5e52;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    transform: rotate(36deg);
+    transform-origin: 0% 0%;
+}
+@media (max-width:640px){
+    .excerpt-sticky header{text-indent:0px;position: unset;}
+    .sticky-icon {
+        position: absolute;
+        padding: 0;
+        right: -45px;
+        left: auto;
+        top: -20px;
+        display: block;
+        width: 120px;
+        height: 24px;
+        line-height: 24px;
+        background: #ff5e52;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        transform: rotate(36deg);
+        transform-origin: 0% 0%;
+    }
+}
+.wp-smiley{margin-bottom:2px;max-height:100px;max-width:100px;}
+/*VIP评论之星*/
+.vp,.vip,.vip1,.vip2,.vip3,.vip4,.vip5,.vip6,.vip7{background: url(https://cdn.wc1234.cn/wp-file/2017/06/vip.png) no-repeat;display: inline-block;overflow: hidden;border: none;}
+.vp{background-position:-515px -2px;width: 16px;height: 16px;margin-bottom: -3px;}
+.vp:hover{background-position:-515px -22px;width: 16px;height: 16px;margin-bottom: -3px;}
+.vip{background-position:-494px -3px;width: 16px;height: 14px;margin-bottom: -2px;}
+.vip:hover{background-position:-494px -22px;width: 16px;height: 14px;margin-bottom: -2px;}
+.vip1{background-position:-1px -2px;width: 46px;height: 14px;margin-bottom: -1px;}
+.vip1:hover{background-position:-1px -22px;width: 46px;height: 14px;margin-bottom: -1px;}
+.vip2{background-position:-63px -2px;width: 46px;height: 14px;margin-bottom: -1px;}
+.vip2:hover{background-position:-63px -22px;width: 46px;height: 14px;margin-bottom: -1px;}
+.vip3{background-position:-144px -2px;width: 46px;height: 14px;margin-bottom: -1px;}
+.vip3:hover{background-position:-144px -22px;width: 46px;height: 14px;margin-bottom: -1px;}
+.vip4{background-position:-227px -2px;width: 46px;height: 14px;margin-bottom: -1px;}
+.vip4:hover{background-position:-227px -22px;width: 46px;height: 14px;margin-bottom: -1px;}
+.vip5{background-position:-331px -2px;width: 46px;height: 14px;margin-bottom: -1px;}
+.vip5:hover{background-position:-331px -22px;width: 46px;height: 14px;margin-bottom: -1px;}
+.vip6{background-position:-441px -2px;width: 46px;height: 14px;margin-bottom: -1px;}
+.vip6:hover{background-position:-441px -22px;width: 46px;height: 14px;margin-bottom: -1px;}
+.vip7{background-position:-611px -2px;width: 46px;height: 14px;margin-bottom: -1px;}
+.vip7:hover{background-position:-611px -22px;width: 46px;height: 14px;margin-bottom: -1px;}
+
+
+/*菜单栏样式*/
+.position .fa {
+    line-height: 40px;
+    padding: 1px 8px;
+}
+
+/* 表情字体颜色弹窗样式 */
+#smiley {
+    background-color: #EEEEEE;
+    padding: 3px 5px;
+    position: relative;
+    line-height: 0;
+}
+#smiley img {
+    display: inline-block;
+    padding: 14px;
+    cursor: pointer;
+}
+#smiley::after {
+    position: absolute;
+    top: -5px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    vertical-align: top;
+    border-bottom: 5px solid #1FA3E1;
+    border-right: 5px solid rgba(0, 0, 0, 0);
+    border-left: 5px solid rgba(0, 0, 0, 0);
+    content: "";
+}
+#fontcolor {
+    width: 453px;
+    height: auto;
+    line-height: 20px;
+    padding: 3px 1px;
+    border: 1px #e0e0e0 solid;
+    z-index: 99999;
+}
+#fontcolor a {
+    display: inline-block;
+    height: 20px;
+    width: 21px;
+}
+#fontcolor::after {
+    border-bottom: 5px solid #1FA3E1;
+    border-left: 5px solid transparent;
+    content: "";
+    border-right: 5px solid transparent;
+    vertical-align: top;
+    height: 0px;
+    width: 0px;
+    left: 82px;
+    top: 108.2px;
+    position: absolute;
+}
